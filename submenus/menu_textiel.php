@@ -1,0 +1,3 @@
+<li><a id="<?php if($active_submenu == 'textielbedrukking') echo 'activesubmenu' ?>" class="navitem" href="kleding-en-textiel-bedrukking-op-maat" title="Kleding en textiel bedrukking op maat">Textielbedrukking</a></li>
+<li><a id="<?php if($active_submenu == 'borduren') echo 'activesubmenu' ?>" class="navitem" href="borduren-textiel-regio-waasland" title="">Borduren</a></li>
+<li><a id="<?php if($active_submenu == 'sublimatie') echo 'activesubmenu' ?>" class="navitem" href="sublimatie-flex-kleding-en-textiel" title="Sublimatie van kleding en textiel">Sublimatie / Flex</a></li>

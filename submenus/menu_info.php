@@ -1,0 +1,4 @@
+<li><a id="<?php if($active_submenu == 'overons') echo 'activesubmenu' ?>" class="navitem" href="digital-printing-publiciteit-waasland" title="Over DDM Digital Printing">Over ons</a></li>
+<li><a id="<?php if($active_submenu == 'investeringen') echo 'activesubmenu' ?>" class="navitem" href="investeren-nieuwe-technology-en-diensten" title="Investeren en innovatie voor optimale dienstverlening">Innovatie</a></li>
+<li><a class="navitem" href="contacteer-ddm-digital-printing-waasland" title="Contacteer ons">Contacteer ons</a></li>
+<!--<li><a id="<?php // if($active_submenu == 'acties') echo 'activesubmenu' ?>" class="navitem" href="onze-promoties-en-lopende-acties" title="Onze promoties en lopende acties">Lopende acties</a></li>-->

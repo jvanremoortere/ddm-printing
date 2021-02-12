@@ -1,0 +1,10 @@
+<li><a id="<?php if($active_submenu == 'alles') echo 'activesubmenu' ?>" class="navitem" href="drukken-op-pvc-glas-steen-spiegels-aluminium" title="Digital printing en algemene drukwerken">alle materialen</a></li>
+<li><a id="<?php if($active_submenu == 'werfenimmo') echo 'activesubmenu' ?>" class="navitem" href="immo-en-werf-borden" title="Werfborden / Immoborden">Werf en immoborden</a></li>
+<li><a id="<?php if($active_submenu == 'drukwerk') echo 'activesubmenu' ?>" class="navitem" href="digitaal-printing-drukwerk" title="Digital printing en algemene drukwerken">Printing / Drukwerk</a></li>
+<li><a id="<?php if($active_submenu == 'canvas') echo 'activesubmenu' ?>" class="navitem" href="bedrukking-canvas-op-maat" title="Gepersonaliseerde bedrukking op diverse canvassen">Canvas</a></li>
+<li><a id="<?php if($active_submenu == 'behang') echo 'activesubmenu' ?>" class="navitem" href="gepersonaliseerd-behang-papier-laten-drukken" title="Gepersonaliseerd behangpapier op maat laten drukken">Behang / Muurprints</a></li>
+<li><a id="<?php if($active_submenu == 'posters') echo 'activesubmenu' ?>" class="navitem" href="poster-en-affiches-stekene" title="Posters en affiches drukken">Posters en affiches</a></li>
+<li><a id="<?php if($active_submenu == 'spandoeken') echo 'activesubmenu' ?>" class="navitem" href="spandoek-bedrukken-op-maat " title="">Spandoeken</a></li>
+<li><a id="<?php if($active_submenu == 'vlaggen') echo 'activesubmenu' ?>" class="navitem" href="gepersonaliseerde-vlaggen-bedrukken" title="Gepersonaliseerde vlaggen laten bedrukken">Vlaggen</a></li>
+<li><a id="<?php if($active_submenu == 'stickers') echo 'activesubmenu' ?>" class="navitem" href="stickers-op-maat-bedrukken-en-snijden" title="Stickers op maat laten bedrukken en snijden">Stickers</a></li>
+<li><a id="<?php if($active_submenu == 'gadgets') echo 'activesubmenu' ?>" class="navitem" href="gepersonaliseerde-gadgets-sleutelhang-usb-stick" title="Gepersonaliseerde gadgets">Gadgets</a></li>

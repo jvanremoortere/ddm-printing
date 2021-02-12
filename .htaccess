@@ -1,0 +1,71 @@
+<FilesMatch "\.(php4|php5|php3|php2|php|phtml)$">
+SetHandler application/x-lsphp56
+</FilesMatch>
+RewriteEngine On
+
+# REWRITES PRINTING PAGINA'S
+# --------------------------------------------------------------------------------------
+RewriteRule	^digitaal-printing-drukwerk /page_printing_drukwerk.php
+RewriteRule	^bedrukking-canvas-op-maat /page_printing_canvas.php
+RewriteRule	^gepersonaliseerd-behang-papier-laten-drukken /page_printing_behang.php
+RewriteRule	^gepersonaliseerde-muur-prints /page_printing_behang.php
+RewriteRule	^poster-en-affiches-stekene /page_printing_posters.php
+RewriteRule	^spandoek-bedrukken-op-maat /page_printing_spandoeken.php
+RewriteRule	^gepersonaliseerde-vlaggen-bedrukken /page_printing_vlaggen.php
+RewriteRule	^stickers-op-maat-bedrukken-en-snijden /page_printing_stickers.php
+RewriteRule	^gepersonaliseerde-gadgets-sleutelhang-usb-stick /page_printing_gadgets.php
+RewriteRule	^gepersonaliseerde-sleutelhangers /page_printing_gadgets.php?gadget=content_service_gadgets_sleutelhangers
+RewriteRule	^gepersonaliseerde-bedrijfs-badges /page_printing_gadgets.php?gadget=content_service_gadgets_badges
+RewriteRule	^gepersonaliseerde-aanstekers /page_printing_gadgets.php?gadget=content_service_gadgets_aanstekers
+RewriteRule	^gepersonaliseerde-usb-sticks /page_printing_gadgets.php?gadget=content_service_gadgets_usbsticks
+RewriteRule	^gepersonaliseerde-stempels /page_printing_gadgets.php?gadget=content_service_gadgets_stempels
+RewriteRule	^gepersonaliseerde-bureau-vlagjes /page_printing_gadgets.php?gadget=content_service_gadgets_vlaggen
+RewriteRule	^gepersonaliseerde-koffie-drink-tassen /page_printing_gadgets.php?gadget=content_service_gadgets_tassen
+RewriteRule	^gepersonaliseerde-iphone-gsm-covers /page_printing_gadgets.php?gadget=content_service_gadgets_gsmcovers
+RewriteRule	^drukken-op-pvc-glas-steen-spiegels-aluminium /page_printing_drukkenopalles.php
+RewriteRule	^immo-en-werk-borden /page_printing_immo_werf_borden.php
+RewriteRule	^immo-en-werf-borden /page_printing_immo_werf_borden.php
+
+# REWRITES BELETTERING PAGINA'S
+# --------------------------------------------------------------------------------------
+RewriteRule	^belettering-reclameborden-signalisatie /page_belettering_reclameborden.php
+RewriteRule	^belettering-wagen-folies-signalisatie-carwrapping /page_belettering_voertuigen.php
+RewriteRule	^lichtreclame-gevelsignalisatie-lichtbakken-lichtgevende-reclame /page_belettering_lichtreclame.php
+RewriteRule	^zandstraalfolie-raamfolie-regio-waasland /page_belettering_zandstraalfolie.php
+RewriteRule	^etalages-raamstickers-gevel-reclame-regio-waasland /page_belettering_etalages.php
+RewriteRule	^geveldoeken-versiering-gevels-regio-waasland /page_belettering_gevels.php
+RewriteRule	^infoborden-reclamezuilen-bedrijfsplakkaten-regio-waasland /page_belettering_reclamezuilen.php
+RewriteRule	^diverse-promo-borden-en-belettering /page_belettering_reclameborden.php
+
+RewriteRule	^car-wrapping-diverse-kleuren-folie /page_belettering_voertuigen.php
+RewriteRule	^voertuig-belettering-stickers-wagens /page_belettering_voertuigen.php
+RewriteRule	^tinten-auto-ramen-met-professionele-folie /page_belettering_voertuigen.php
+
+# REWRITES TEXTIEL PAGINA'S
+# --------------------------------------------------------------------------------------
+RewriteRule	^kleding-en-textiel-bedrukking-op-maat /page_textiel_textielbedrukking.php
+RewriteRule	^bedrukking-en-borduren-van-textiel /page_textiel_textielbedrukking.php
+RewriteRule	^borduren-textiel-regio-waasland /page_textiel_borduren.php
+RewriteRule	^sublimatie-flex-kleding-en-textiel /page_textiel_sublimatie.php
+
+
+
+# REWRITES BEURS & BANNERS PAGINA'S
+# --------------------------------------------------------------------------------------
+RewriteRule	^modulaire-beursstanden-regio-waasland /page_beurs_beursstanden.php
+RewriteRule	^modulaire-standen-op-maat-voor-beurzen-regio-waasland /page_beurs_beursstanden.php
+RewriteRule	^drukbare-gadgets-vlaggen-petjes-promo-items /page_beurs_gadgets.php
+RewriteRule	^promotie-banners-en-vlaggen /page_beurs_banners.php
+RewriteRule	^roll-up-banner-systemen-beurs /page_beurs_roll_up_banners.php
+
+
+
+# REWRITES ALGEMENE PAGINA'S
+# --------------------------------------------------------------------------------------
+RewriteRule	^onze-digitale-referenties /page_referenties.php
+RewriteRule	^contacteer-ddm-digital-printing-waasland /contact.php
+RewriteRule	^investeren-nieuwe-technology-en-diensten /page_investeringen.php
+RewriteRule	^onze-promoties-en-lopende-acties /page_lopende_acties.php
+RewriteRule	^digital-printing-publiciteit-waasland /page_over_ons.php
+RewriteRule	^sitemap-ddm-printing /sitemap.php
+RewriteRule	^digital-printing-regio-waasland /index.php

@@ -1,0 +1,2 @@
+<h1>Verzorging etalages - Bestickering etalages</h1>
+<p>Kunnen voorzien worden van al dan niet doorzichtige bestikkering, uitgesneden vormen of full-color bedrukt. Of een combinatie van beiden, al dan niet in combinatie met textielbanners of reclamelichtbakken.</p>

@@ -1,0 +1,4 @@
+<li><a id="<?php if($active_submenu == 'beursstanden') echo 'activesubmenu' ?>" class="navitem" href="modulaire-beursstanden-regio-waasland" title="Kleding en textiel bedrukking op maat">Beursstanden</a></li>
+<li><a id="<?php if($active_submenu == 'banners') echo 'activesubmenu' ?>" class="navitem" href="promotie-banners-en-vlaggen" title="Promotie banners en vlaggen voor beurs">Banners</a></li>
+<li><a id="<?php if($active_submenu == 'rollupbanners') echo 'activesubmenu' ?>" class="navitem" href="roll-up-banner-systemen-beurs" title="Roll-Up bannersystemen">Roll-Up Banners</a></li>
+<li><a id="<?php if($active_submenu == 'gadgets') echo 'activesubmenu' ?>" class="navitem" href="drukbare-gadgets-vlaggen-petjes-promo-items" title="Drukbare gadgets en promotie items">Gadgets</a></li>
